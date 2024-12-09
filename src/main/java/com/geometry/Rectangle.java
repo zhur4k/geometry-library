@@ -18,4 +18,9 @@ public class Rectangle implements Shape{
     public Integer getSquare() {
         return a * b;
     }
+
+    @Override
+    public String getType() {
+        return "Rectangle";
+    }
 }

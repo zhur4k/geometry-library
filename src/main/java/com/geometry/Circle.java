@@ -17,4 +17,9 @@ public class Circle implements Shape {
     public Integer getSquare() {
         return (int) (Math.PI * radius * radius);
     }
+
+    @Override
+    public String getType() {
+        return "Circle";
+    }
 }

@@ -16,4 +16,9 @@ public class Triangle implements Shape {
     public Integer getSquare() {
         return (int) (Math.sqrt(3) /4 * side);
     }
+
+    @Override
+    public String getType() {
+        return "Triangle";
+    }
 }
