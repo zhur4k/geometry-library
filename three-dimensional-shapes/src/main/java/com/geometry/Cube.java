@@ -9,7 +9,7 @@ public class Cube implements ThreeDimensionalShape {
 
     @Override
     public Integer getVolume() {
-        return sideLength;
+        return sideLength * sideLength * sideLength;
     }
 
     @Override
